@@ -8,7 +8,9 @@ public class Demo<T> implements Serializable {
     private static final long serialVersionUID = 4419042680834106563L;
    public Integer integer;
    public T t;
-
+    public void show(){
+        System.out.println("master Update");
+    }
     public Demo() {
     }
 
